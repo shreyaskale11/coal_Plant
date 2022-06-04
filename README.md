@@ -1,10 +1,5 @@
 # coal_Plant
 
-### What is Factor in R?
-Factor in R is a variable used to categorize and store the data, having a limited number of different values. It stores the data as a vector of integer values. Factor in R is also known as a categorical variable that stores both string and integer data values as levels. 
-Factor is mostly used in Statistical Modeling and exploratory data analysis with R.
-
-
 ```
 machine = read.csv(file.choose())
 
@@ -39,7 +34,12 @@ lists are usefull in subsetting like below
 ```
 RL1 = machine[machine$Machine =="RL1",]
 summary(RL1)
+```
+What is Factor in R?<br/>
+Factor in R is a variable used to categorize and store the data, having a limited number of different values. It stores the data as a vector of integer values. Factor in R is also known as a categorical variable that stores both string and integer data values as levels. 
+Factor is mostly used in Statistical Modeling and exploratory data analysis with R.
 
+```
 RL1$Machine = factor(RL1$Machine)
 
 ```
